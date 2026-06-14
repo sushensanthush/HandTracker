@@ -289,7 +289,7 @@ class HandTrackerApp:
                             hand_label = "Unknown"
                             if detection_result.handedness and idx < len(detection_result.handedness):
                                 raw_label = detection_result.handedness[idx][0].category_name
-                                # MIRROR CONVERSION SYSTEM FIXED HERE:
+                              
                                 if raw_label.lower() == "left":
                                     hand_label = "Right"
                                 elif raw_label.lower() == "right":
