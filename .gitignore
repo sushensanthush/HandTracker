@@ -1,0 +1,30 @@
+# --- Python Specifics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.env/
+
+# --- PyInstaller Build Files ---
+# Since you are packaging the app, you don't need to track the build process itself
+build/
+dist/
+*.spec
+
+# --- OS Specifics ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- MediaPipe/AI Model Files ---
+# Optional: Only ignore if the file is very large or if you don't want to sync it
+# hand_landmarker.task
+
+# --- Local IDE Folders ---
+.vscode/
+.idea/
+.ipynb_checkpoints/
